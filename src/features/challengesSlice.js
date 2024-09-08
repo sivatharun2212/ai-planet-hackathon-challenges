@@ -7,7 +7,7 @@ const challengesData = [
 			"Data Science Bootcamp - Graded Datathon is an intensive hackathon where participants apply machine learning techniques to solve real-world problems using large datasets. Teams compete to develop the most accurate and efficient predictive models within a set timeframe.",
 		startDate: "2024-09-11",
 		endDate: "2024-09-20",
-		image: "../assets/data.svg",
+		image: "https://res.cloudinary.com/dpnzucco8/image/upload/v1725802247/cf22aaeg4x9kvhh2tyh7.svg",
 		levelType: "easy",
 	},
 	{
