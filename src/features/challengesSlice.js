@@ -17,7 +17,7 @@ const challengesData = [
 			"Data Sprint 72 - Butterfly Identification is a machine learning challenge where participants build models to accurately classify butterfly species from images. The task focuses on leveraging image processing and classification techniques to identify species from a provided dataset.",
 		startDate: "2024-09-21",
 		endDate: "2024-09-27",
-		image: "../assets/fly.svg",
+		image: "https://res.cloudinary.com/dpnzucco8/image/upload/v1725802574/uegy6w0zxxyujhxn5j6b.svg",
 		levelType: "medium",
 	},
 	{
@@ -27,7 +27,7 @@ const challengesData = [
 			"Data Sprint 71 - Weather Recognition is a machine learning challenge where participants develop models to recognize different weather conditions based on images. The goal is to use computer vision techniques to accurately classify various weather types from the dataset provided.",
 		startDate: "2024-09-04",
 		endDate: "2024-09-11",
-		image: "../assets/cars",
+		image: "https://res.cloudinary.com/dpnzucco8/image/upload/v1725802585/z7bvgrcyohshaahwyy2a.svg",
 		levelType: "hard",
 	},
 	{
@@ -37,7 +37,7 @@ const challengesData = [
 			"Data Sprint 70 - Airline Passenger Satisfaction is a machine learning challenge where participants analyze passenger data to predict satisfaction levels. The task involves building models to identify key factors influencing customer satisfaction and providing insights to improve airline services.",
 		startDate: "2024-09-06",
 		endDate: "2024-09-15",
-		image: "../assets/man.svg",
+		image: "https://res.cloudinary.com/dpnzucco8/image/upload/v1725802597/offxxhywpqhf1cyuhwez.svg",
 		levelType: "easy",
 	},
 	{
@@ -47,7 +47,7 @@ const challengesData = [
 			"Engineering Graduates Employment Outcomes is a data challenge where participants analyze employment trends and outcomes for engineering graduates.",
 		startDate: "2024-09-01",
 		endDate: "2024-09-07",
-		image: "../assets/prople.svg",
+		image: "https://res.cloudinary.com/dpnzucco8/image/upload/v1725802611/vgyl1il3l5clh4tfpdy2.svg",
 		levelType: "medium",
 	},
 	{
@@ -57,7 +57,7 @@ const challengesData = [
 			"Travel Insurance Claim Prediction is a data science challenge where participants build predictive models to determine whether a travel insurance policyholder will file a claim.",
 		startDate: "2024-09-01",
 		endDate: "2024-09-05",
-		image: "../assets/boy.svg",
+		image: "https://res.cloudinary.com/dpnzucco8/image/upload/v1725802621/p8gos1zjasstlsokddqz.svg",
 		levelType: "easy",
 	},
 ];

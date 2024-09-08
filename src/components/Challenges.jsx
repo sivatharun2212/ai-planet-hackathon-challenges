@@ -326,7 +326,7 @@ const Challenges = () => {
 							return (
 								<div
 									key={challenge.challengeId}
-									className="bg-white rounded-2xl w-[90%]">
+									className="bg-white rounded-2xl w-[90%] overflow-hidden">
 									<div className="w-full h-[30%]">
 										<img
 											className="w-full h-full object-cover"
