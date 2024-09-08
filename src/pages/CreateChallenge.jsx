@@ -61,7 +61,7 @@ const CreateChallenge = () => {
 			levelType,
 		};
 		dispatch(setChallenges(data));
-		navigate("/challenges-list");
+		navigate("/");
 	};
 
 	return (
@@ -147,7 +147,7 @@ const CreateChallenge = () => {
 							type="file"
 							id="imageUpload"
 							className="hidden"
-							accept="image/svg+xml"
+							accept="image/*"
 							onChange={handleImageChange}
 						/>
 					</div>

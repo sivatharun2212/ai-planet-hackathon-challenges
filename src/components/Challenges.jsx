@@ -322,16 +322,19 @@ const Challenges = () => {
 									: status.statusInfo === "Upcomming"
 									? "#f2c94c40"
 									: "";
+							console.log(challenge.image);
 							return (
-								<div className="bg-white rounded-2xl w-[90%]">
-									<div className="w-full">
+								<div
+									key={challenge.challengeId}
+									className="bg-white rounded-2xl w-[90%]">
+									<div className="w-full h-[30%]">
 										<img
-											className="w-full"
+											className="w-full h-full object-cover"
 											src={challenge.image}
 											alt=""
 										/>
 									</div>
-									<div className="flex flex-col items-center justify-between px-10 gap-6 py-6 ">
+									<div className="flex flex-col items-center justify-between px-10 h-[70%] gap-6 py-6 ">
 										<div
 											style={{ backgroundColor: statusColor }}
 											className="w-24 rounded-md flex justify-center items-center">
