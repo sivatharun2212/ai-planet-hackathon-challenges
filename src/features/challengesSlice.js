@@ -62,9 +62,8 @@ const challengesData = [
 	},
 ];
 
-const savedChallenges = JSON.parse(localStorage.getItem("@Challenges")) || challengesData;
 const initialState = {
-	challenges: savedChallenges,
+	challenges: challengesData,
 };
 
 const challengesSlice = createSlice({
@@ -73,19 +72,16 @@ const challengesSlice = createSlice({
 	reducers: {
 		setChallenges: (state, action) => {
 			state.challenges = [...state.challenges, action.payload];
-			localStorage.setItem("@Challenges", JSON.stringify(state.challenges));
 		},
 		deleteChallenge: (state, action) => {
 			const updatedChallenges = state.challenges.filter((challenge) => challenge.challengeId !== action.payload);
 			state.challenges = updatedChallenges;
-			localStorage.setItem("@Challenges", JSON.stringify(state.challenges));
 		},
 		updateChallenge: (state, action) => {
 			const updatedChallenges = state.challenges.map((challenge) =>
 				challenge.challengeId === action.payload.challengeId ? action.payload : challenge
 			);
 			state.challenges = updatedChallenges;
-			localStorage.setItem("@Challenges", JSON.stringify(state.challenges));
 		},
 	},
 });
